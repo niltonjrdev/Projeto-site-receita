@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
 :root{
     font-family: "Alice", serif;
     line-height: 150%;
@@ -25,9 +30,37 @@ img{
         display: block;     
 }
 
+main{
+    padding: 24px;
+}
+
+section + section{
+    margin-top: 24px;
+}
+
+h2{
+    margin-bottom: 12px;
+}
+
+ul{
+    padding-left: 18px;
+    padding-top: 12px; 
+    padding-bottom: 16px;
+}
+
+ol{
+    padding-left: 30px;
+    padding-bottom: 7px;
+}
+
+#about P + P{
+    margin-top: 12px;
+}
+
 h1{
     line-height: 140%;
     font-size: 40px;
+    margin-bottom: 4px;
 }
 
 h2{
@@ -35,5 +68,5 @@ h2{
 }
 
 h1, h2{
-    color: #291B1A; 
+    color: #291B1A;
 }
